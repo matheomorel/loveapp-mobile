@@ -8,6 +8,8 @@
 		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011 /* AppDelegate.swift */; };
 		A10000000000000000000002 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012 /* ViewController.swift */; };
 		A10000000000000000000003 /* site-url.txt in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000013 /* site-url.txt */; };
+		A10000000000000000000005 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000020 /* UIKit.framework */; };
+		A10000000000000000000006 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A10000000000000000000021 /* WebKit.framework */; };
 		A10000000000000000000010 /* LoveApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10000000000000000000011 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A10000000000000000000012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,8 +111,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000000000000000000020 /* UIKit.framework in Frameworks */,
-				A10000000000000000000021 /* WebKit.framework in Frameworks */,
+				A10000000000000000000005 /* UIKit.framework in Frameworks */,
+				A10000000000000000000006 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
