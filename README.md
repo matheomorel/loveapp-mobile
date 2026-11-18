@@ -16,3 +16,7 @@ La sélection de fichiers est gérée par iOS. L’accès à la caméra et au mi
 2. Ouvrez `LoveApp.xcodeproj`.
 3. Sélectionnez une équipe de signature dans les réglages de la cible si vous lancez sur un appareil physique.
 4. Sélectionnez un simulateur ou un appareil iOS et lancez la cible **LoveApp**.
+
+## Codemagic
+
+Le fichier `codemagic.yaml` configure la compilation de l’application pour le simulateur iOS et publie le `.app` comme artefact. Après avoir ajouté le dépôt à Codemagic, sélectionnez la branche `main` et cliquez sur **Check for configuration file**. Cette compilation ne signe pas une IPA; la signature et la distribution via TestFlight nécessitent une configuration Apple Developer dans Codemagic.
